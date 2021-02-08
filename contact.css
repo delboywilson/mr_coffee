@@ -1,0 +1,34 @@
+.contact-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 58%;
+  font-family: NunitoSans-Regular, Arial, sans-serif;
+  font-size: 24px;
+  color: #5c5b5b;
+}
+  .address-text-box {
+    width: 100%;
+    height: 220px;
+    margin-top: 60px;
+  }
+  .address-text-box > h4 {
+    font-family: NunitoSans-Bold, Arial, sans-serif;
+    font-size: 24px;
+  }
+  .address-text-box > p {
+    margin-bottom: 30px;
+  }
+  .address-line {
+    display: table;
+  }
+.address-img-container {
+  display: flex;
+  justify-content: center;
+  width: 58%;
+}
+  .address-img {
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }  

@@ -1,0 +1,122 @@
+@media screen and (max-width: 800px) {
+  header li {
+    display: flex;
+    height: 18px;
+    font-size: 12px;
+    margin-right: 10px;
+  }       
+}
+@media screen and (max-width: 392px) {
+  header li {
+    display: flex;
+    height: 18px;
+    font-size: 9px;
+    margin-right: 10px;
+  }       
+}
+@media screen and (max-width: 600px) {
+  .cover-text {
+    font-size: 20px;
+  }       
+}
+@media screen and (max-width: 600px) {
+  .logo-dark {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .button-find-out-more {
+    width: 282px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .text-below-cover-section {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .open-hours-text {
+    width: 120px;
+    font-size: 15px;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .events {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .events2 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact-us-div {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact-us-2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .socials-text {
+    font-size: 10px;
+  }       
+}
+@media screen and (max-width: 600px) {
+  .socials-logos {
+    width: 18px;
+    height: 18px;
+  }       
+}
+@media screen and (max-width: 800px) {
+  .about-block-1-heading > h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about-block-1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .about-block-1-text{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .about-block-2-text{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .about-block-img-porta {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .about-block-img-cafe {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact-text-container {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .address-img-container {
+    width: 90%;
+  }
+}
