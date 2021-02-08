@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Coffee - Contact</title>
+  <meta name="description" content="Mr Coffee. 15 place Jules Guesde 75006 Paris, Tel : +33 9 46 25 78 45
+  Mail : contact@mr-coffee.com">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="form.css">
+  <script src="form.js"></script>
+</head>
+<body>
+  <div class="main-wrapper">
+    
+    <div class="modal-container" id="modal-container-id">
+      <div class="modal">
+        <img src="assets/logo_dark.png" alt="Mr Coffee Logo, hat over eyes and monocle">
+        <div class="modal-text">
+          <h1>MERCI</h1>
+          <h2>Votre message a bien été envoyé !</h2>
+          <h3>Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.Coffee</h3>
+        </div>
+        <button class="button" id="button-close">FERMER</button>
+      </div>
+    </div>
+    
+    <header>
+      <div class="logodiv">
+        <img class="logo-white" src="assets/full_logo_white.png" alt="Mr Coffee Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/about.html">Qui sommes-nous?</a></li>
+          <li><a href="/contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="logo-section">
+        <img class="logo-dark" src="assets/logo_mrcoffee.png" alt="Mr Coffee Logo">
+      </div>
+
+      <h1>Dites nous tout !</h1>
+
+      <div class="form-container">
+        <form id="contact-form">
+          <ul>
+            <li class="form-field">
+              <label class="required" for="lastname">Nom</label>
+              <input type="text" id="lastname" name="user_lastname" autocomplete="off" required>
+              <small></small>
+            </li>
+            <li class="form-field">
+              <label class="required" for="firstname">Prénom</label>
+              <input type="text" id="firstname" name="user_firstname" autocomplete="off" required>
+              <small></small>
+            </li>
+            <li class="form-field">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone" autocomplete="off" notRequired>
+              <small></small>
+            </li>
+            <li class="form-field">
+              <label class="required" for="mail">Adresse mail</label>
+              <input type="email" id="mail" name="user_email" autocomplete="off" required>
+              <small></small>
+            </li>
+            <li class="form-field">
+              <label class="required" for="msg">Message</label>
+              <textarea id="msg" placeholder=" Tapez votre message ici" name="user_message" autocomplete="off" required></textarea>
+              <small></small>
+            </li>
+            <li>
+              <button class="button" id="button-open" type="submit">ENVOYER</button>
+            </li>
+          </ul>
+         </form>
+      </div>
+
+      <div class="contact-text-container">
+        <div class="waiting-text">
+          <h2>On vous attend !</h2>
+        </div>
+        <div class="address-text-box">
+          <h4>Mr.Coffee</h4>
+          <p><span class="address-line">15 place Jules Guesde</span><span class="address-line">75006 Paris</span></p>
+          <p>Tel : +33 9 46 25 78 45<span class="address-line">Mail : contact@mr-coffee.com</span></p>
+        </div>
+      </div>
+      <div class="address-img-container">
+        <img class="address-img" src="assets/carte_contact.png" alt="google maps image of Mr Coffee's location">
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo-div">
+        <img class="footer-logo" src="assets/logo_blanc.png" alt="Mr Coffee logo">
+      </div>
+      <div class="socials-div">
+        <div class="socials-text-div">
+          <h5 class="socials-text">Suivez nous sur les réseaux sociaux !</h5>
+        </div>
+        <div class="socials-logos-div">
+          <img class="socials-logos" src="assets/logo_linkedin.png" alt="Linked In logo">
+          <img class="socials-logos" src="assets/logo_twitter.png" alt="Twitter logo">
+          <img class="socials-logos" src="assets/logo_facebook.png" alt="Facebook logo">
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

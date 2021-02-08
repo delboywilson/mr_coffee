@@ -1,0 +1,51 @@
+.contact-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 58%;
+  font-family: NunitoSans-Regular, Arial, sans-serif;
+  font-size: 24px;
+  color: #5c5b5b;
+}
+  .address-text-box {
+    width: 100%;
+    height: 50%;
+    margin-top: 60px;
+  }
+  .address-text-box > h4 {
+    font-family: NunitoSans-Bold, Arial, sans-serif;
+    font-size: 24px;
+  }
+  .address-text-box > p {
+    margin-bottom: 30px;
+  }
+  .address-line {
+    display: table;
+  }
+.address-img-container {
+  display: flex;
+  justify-content: center;
+  width: 58%;
+}
+  .address-img {
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }  
+
+@media screen and (max-width: 800px) {
+  .contact-text-container {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .address-img-container, .contact-text-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .address-img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
